@@ -22,3 +22,6 @@ for (let i = 1; i <= 1; i++){
         document.getElementById('risDisp').innerText = `Hai inserito un numero dispari, questo è il tuo nuovo numero: ${numSucc}`
     }
 }
+
+//parseFloat restituisce numeri con decimali, es 3.25
+//pareseInt solo per numeri interi

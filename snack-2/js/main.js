@@ -19,3 +19,13 @@ let randSurname = surnames.length;
 //in stampa mando nomi e cognomi casuali 
 //con l'aggiunta del - 1 a randname e randsurnames per far si che tutti i nomi e cognomi vengano inclusi 
 console.log(names[Math.round(Math.random() * (randName - 1))] + ' ' + surnames[Math.round(Math.random() * (randSurname -1 ))])
+
+//si poteva aggiungere un array fullNames per generare nomi e cognomi random
+// es: fullnames [];
+//successivamente in randName = Math.floor(Math.random() * names.lenght);
+//cognomi: randSurname = Math.floor(Math.random() * surnames.lenght);
+//console.log(il dato composto randomico è ${names [randName]} ${surname[randSurname]})
+
+//estrarre un dato da un array
+//nomeArray[posizioneElemento] => nomeArray[2] => estrarre dall'array in posizione 2
+//ciclo for e al suo interno andiamo a interrogare fullNames.push con il risultato come in console.log
